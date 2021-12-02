@@ -1,47 +1,7 @@
 # Supply Chain Smart Contracts
 
-This project implements smart contracts that simulate a wine supply chain.
-This project is part of the Udacity Blockchain Nanodegree.
+This project implements smart contracts that simulate a product supply chain.
 
-## UML Diagrams
-
-Here are the diagrams that has been done to show the architecture of the project.
-As you can see the supply chain flow has been simplified a lot. The idea wan not to match with an exact supplu chain situation
-but to have an interesting use of solidity and smart contracts.
-
-**Activity UML Diagram**
-
-![Activity UML Diagram](images/activity_uml_diagram.png)
-
-**Sequence UML Diagram**
-
-![Sequence UML Diagram](images/sequence_uml_diagram.png)
-
-**State UML Diagram**
-
-![State UML Diagram](images/state_uml_diagram.png)
-
-**Class UML Diagram**
-
-![Class UML Diagram](images/class_uml_diagram.png)
-
-
-## Libraries
-
-**Roles from OpenZeppelin**: Roles library is used in order to manage the different access and authorization for different users. I used the [OpenZeppelin implementation](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/access/Roles.sol)
-
-**Pausable contract from OpenZeppelin**: This contract is used in order to be able to Pause a contract. I used the [OpenZeppelin implementation](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/lifecycle/Pausable.sol)
-
-**Ownable contract from OpenZeppelin**: This contract is used in order to assign an owner to the contract and being able to transfer the ownership. I used the [OpenZeppelin implementation](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/ownership/Ownable.sol)
-
-**SafeMath from OpenZeppelin**:  I use this library in order to avoid overflow or underflow of uint. [OpenZeppelin SafeMath implementation](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol)
-
-## Rinkeby Deployment
-
-The smart contracts have been deployed to the rinkeby testnet .
-Here are the infos:
-* Transaction Hash: [0xf4d740133d6c18fe7d242c6a24afd0e346b85889f36ca7acf52d4acd0e690fe5](https://rinkeby.etherscan.io/tx/0xf4d740133d6c18fe7d242c6a24afd0e346b85889f36ca7acf52d4acd0e690fe5)
-* Contract address: [0x9F355832fFC582f169de963a48CA97018975EfBA](https://rinkeby.etherscan.io/address/0x9F355832fFC582f169de963a48CA97018975EfBA)
 
 ## Launch local server and deploy on a local blockchain
 
